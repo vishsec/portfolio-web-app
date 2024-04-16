@@ -1,9 +1,30 @@
-import React from 'react';
+"use client";
+import React, { useEffect } from 'react';
 import SectionHeading from './section-heading';
+// import { motion } from 'framer-motion';
+import { useInView } from 'react-intersection-observer';
+import { useActiveSectionContext } from '@/context/active-section-context';
+
+
 
 export default function About() {
+
+  const { ref, inView} = useInView({
+    threshold:0.75,
+  });
+  const { setActiveSection } = useActiveSectionContext();
+
+  useEffect(() => {
+    if(inView){
+      setActiveSection('About');
+    }
+  }, [inView, setActiveSection]); //for the bg in navbar to slide when scrolling
+  
+
   return (
-    <section className='text-slate-200 mb-28 max-w-[48rem] text-center leading-8 scroll-mt-36' id='about'>
+    <section 
+    ref ={ref}
+    className='text-slate-200 mb-28 max-w-[48rem] text-center leading-8 scroll-mt-36' id='about'>
         <SectionHeading>About me</SectionHeading>
         
         <p className="mb-5 py-8">

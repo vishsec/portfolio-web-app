@@ -1,15 +1,30 @@
 "use client";
-import React from 'react';
+import React, { useEffect } from 'react';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 import { BsArrowDown, BsLinkedin } from 'react-icons/bs';
 import { HiDownload } from 'react-icons/hi'
 import { FaGithub } from 'react-icons/fa';
 import { FaSquareXTwitter } from 'react-icons/fa6';
+import { useInView } from 'react-intersection-observer';
+import { useActiveSectionContext } from '@/context/active-section-context';
 
 export default function Intro() {
+
+    const { ref, inView} = useInView({
+        threshold:0.5,
+      });
+      const { setActiveSection } = useActiveSectionContext();
+    
+      useEffect(() => {
+        if(inView){
+          setActiveSection('Home'); //benifit of TS is that its not just a string its HOME so any corrections will be shown instantly
+        }
+      }, [inView, setActiveSection]); 
+
+
   return (
-    <section id='home' className='text-center mb-28 max-w-[50rem] sm:mb-0 scroll-mt-[100rem] '>
+    <section ref={ref} id='home' className='text-center mb-28 max-w-[50rem] sm:mb-0 scroll-mt-[100rem] '>
 
     <motion.h1
         className="mb-6 mt-4 px-4 py-32 text-2xl font-medium !leading-[1.5] sm:text-4xl text-slate-300"
