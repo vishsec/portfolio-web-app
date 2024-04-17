@@ -29,32 +29,31 @@ export default function About() {
         
         <p className="mb-5 py-8">
 
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
+        I had always wondered what makes me curious,{" "}
+        <span className="font-medium">What am i passionate about</span>, I decided to pursue
+        bachelors in programming. I joined several webinars ,read and learned{" "}
+        <span className="font-medium">what was programming all about</span>.{" "}
         <span className="italic">My favorite part of programming</span> is the
         problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
+        feeling of finally figuring out a solution to a problem. i have used technologies like
+        {" "}
         <span className="font-medium">
           React, Next.js, Node.js, and MongoDB
         </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
+        . I have also worked with java and php. I am always looking to
         learn new technologies. I am currently looking for a{" "}
         <span className="font-medium">full-time position</span> as a software
         developer.
     
         </p>
         <p>
-        <span className="italic">When I &apos; m not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I &apos; m also
-        learning how to play the guitar. sure suresure  sure  sure  sure  sure sure 
-       
-        
+        <span className="italic">When I &apos;m not coding</span>, I enjoy reading books
+        , watching movies, . I also enjoy{" "}
+        <span className="font-medium">learning about myself and people i interact with</span>. I often find myself
+        listening to podcasts of influential people ,businesses and technologies{" "}
+        <span className="font-medium"> which helps me grow as a person</span>.
+        i have participated in various skits and NGOs which have helped me improve my interpersonal skills
+
         </p>
     </section>
   )
