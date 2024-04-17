@@ -57,6 +57,8 @@ export default function Intro() {
         download>
             Download CV <HiDownload className='pacity-60 group-hover:translate-y-1 transition' />
         </a>
+
+        <div className='flex gap-2'>
         <a className='bg-slate-400 text-black rounded-full p-2 flex items-center gap-2
         hover:bg-slate-300 hover:text-black transition cursor-pointer border border-white/35'
         href='https://www.linkedin.com/in/vishwajit-avarsekar-95600621a/' target='_blank'>
@@ -72,6 +74,7 @@ export default function Intro() {
         href = 'https://twitter.com/vishsec' target='_blank'>
             <FaSquareXTwitter/>
         </a>
+        </div>
     </motion.div>
 
 
