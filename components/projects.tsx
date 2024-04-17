@@ -23,8 +23,9 @@ export default function Projects() {
   }, [inView, setActiveSection]);
 
   return (
-    <section ref={ref} id='projects' className='text-white scroll-mt-2 py-40'>
+    <section ref={ref} id='projects' className='text-white scroll-mt-2 py-40 mb-28'>
         <SectionHeading>My Projects</SectionHeading>
+        
         <div>
             {
                 projectsData.map((project, index) => (
@@ -35,6 +36,7 @@ export default function Projects() {
             }
           
         </div>
+        
     </section>
   );
 }
