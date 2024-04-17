@@ -31,10 +31,10 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
     >
-        <span className="font-bold">Hello World, I'm Vishwajit.</span> A{" "}
+        <span className="font-bold">Hello World, I &apos; m Vishwajit.</span> A{" "}
         <span className="font-bold">full-stack developer</span> with{" "}
         <span className="font-bold">a passion for developing,</span> {" "} I enjoy
-        building <span className="font-sans">things on the web</span>,And I'm currently working on a{" "}
+        building <span className="font-sans">things on the web</span>,And I &apos;m currently working on a{" "}
         <Link href='https://github.com/vishsec/business-app' target='_blank' className='underline font-bold'>MERN stack project</Link>.
     </motion.h1>
 
