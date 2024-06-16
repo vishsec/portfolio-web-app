@@ -30,7 +30,7 @@ export default function About() {
         <p className="mb-5 py-8">
 
         I had always wondered what makes me curious,{" "}
-        <span className="font-medium">What am i passionate about</span>, I decided to pursue
+        <span className="font-medium">What am i always passionate about</span>, I decided to pursue
         bachelors in programming. I joined several webinars ,read and learned{" "}
         <span className="font-medium">what was programming all about</span>.{" "}
         <span className="italic">My favorite part of programming</span> is the
