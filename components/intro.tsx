@@ -3,6 +3,7 @@ import React, { useEffect } from 'react';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 import { BsArrowDown, BsLinkedin } from 'react-icons/bs';
+import { CgArrowTopRight } from "react-icons/cg";
 import { HiDownload } from 'react-icons/hi'
 import { FaGithub } from 'react-icons/fa';
 import { FaSquareXTwitter } from 'react-icons/fa6';
@@ -31,8 +32,8 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
     >
-        <span className="font-bold">Hello World, I &apos; m Vishwajit.</span> A{" "}
-        <span className="font-bold">full-stack developer</span> with{" "}
+        <span className="font-bold">Hello World, I&apos;m Vishwajit.</span> A{" "}
+        <span className="font-semibold">full-stack developer</span> with{" "}
         <span className="font-bold">a passion for developing,</span> {" "} I enjoy
         building <span className="font-sans">things on the web</span>,And I &apos;m currently working on a{" "}
         <Link href='https://github.com/vishsec/business-app' target='_blank' className='underline font-bold'>MERN stack project</Link>.
@@ -59,6 +60,11 @@ export default function Intro() {
         </a>
 
         <div className='flex gap-2'>
+        <a className='bg-slate-400 text-black rounded-full p-2 flex items-center gap-2
+        hover:bg-slate-300 hover:text-black transition cursor-pointer border border-white/35'
+        href='https://vishsecresume.tiiny.site/' target='_blank'>
+            <CgArrowTopRight />
+        </a>
         <a className='bg-slate-400 text-black rounded-full p-2 flex items-center gap-2
         hover:bg-slate-300 hover:text-black transition cursor-pointer border border-white/35'
         href='https://www.linkedin.com/in/vishwajit-avarsekar-95600621a/' target='_blank'>
