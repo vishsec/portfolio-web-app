@@ -53,7 +53,7 @@ export default function Intro() {
         <a 
         className='group bg-slate-500 text-black rounded-full px-5 py-1 flex items-center gap-2 
          hover:bg-slate-300 transition cursor-pointer border border-white/35'
-        href='/cv.pdf'
+        href='/Resume.pdf'
         download>
             Download CV <HiDownload className='pacity-60 group-hover:translate-y-1 transition' />
         </a>

@@ -1,5 +1,5 @@
 import React from "react";
-import corpcommentImg from "@/public/boids.png";
+import GOImg from "@/public/gol.png";
 import webappImg from "@/public/webapp.png";
 import wordanalyticsImg from "@/public/business.png";
 
@@ -30,12 +30,12 @@ export const links = [
 
 export const projectsData = [
   {
-    title: "Imitating Birds",
+    title: "GO HTTP server",
     description:
-      "Ever wondered how birds fly in flocks without hitting each other? theres a pattern to everything in this world.",
-    tags: ["Java", "Java GUI"],
-    imageUrl: corpcommentImg,
-    link:'https://github.com/vishsec/imitatingBirds'
+      "My first GO project to understand implementation and working of GOlang",
+    tags: ["GO", "Insomnia", "APIs"],
+    imageUrl: GOImg,
+    link:'https://github.com/vishsec/HTTP-server-'
   },
   {
     title: "portfolio-webapp",
