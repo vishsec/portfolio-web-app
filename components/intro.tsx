@@ -1,14 +1,14 @@
 "use client";
-import React, { useEffect } from 'react';
+import { useActiveSectionContext } from '@/context/active-section-context';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
+import { useEffect } from 'react';
 import { BsArrowDown, BsLinkedin } from 'react-icons/bs';
 import { CgArrowTopRight } from "react-icons/cg";
-import { HiDownload } from 'react-icons/hi'
 import { FaGithub } from 'react-icons/fa';
 import { FaSquareXTwitter } from 'react-icons/fa6';
+import { HiDownload } from 'react-icons/hi';
 import { useInView } from 'react-intersection-observer';
-import { useActiveSectionContext } from '@/context/active-section-context';
 
 export default function Intro() {
 
@@ -34,9 +34,7 @@ export default function Intro() {
     >
         <span className="font-bold">Hello World, I&apos;m Vishwajit.</span> A{" "}
         <span className="font-semibold">full-stack developer</span> with{" "}
-        <span className="font-bold">a passion for developing,</span> {" "} I enjoy
-        building <span className="font-sans">things on the web</span>,And I &apos;m currently working on a{" "}
-        <Link href='https://github.com/vishsec/business-app' target='_blank' className='underline font-bold'>MERN stack project</Link>.
+        <span className="font-bold">a passion for developing, Building and maintaining code</span> <span className="font-sans">on the web</span>
     </motion.h1>
 
     <motion.div className='flex flex-col sm:flex-row gap-3 items-center justify-left px-4 text-lg font-semibold'
@@ -54,7 +52,7 @@ export default function Intro() {
         <a 
         className='group bg-slate-500 text-black rounded-full px-5 py-1 flex items-center gap-2 
          hover:bg-slate-300 transition cursor-pointer border border-white/35'
-        href='/Resume.pdf'
+        href='/Vishwajit_Resume.pdf'
         download>
             Download CV <HiDownload className='pacity-60 group-hover:translate-y-1 transition' />
         </a>

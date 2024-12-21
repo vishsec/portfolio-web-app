@@ -1,7 +1,7 @@
 import React from "react";
 import GOImg from "@/public/gol.png";
-import webappImg from "@/public/webapp.png";
-import wordanalyticsImg from "@/public/business.png";
+import webappImg from "@/public/port.png";
+import wordanalyticsImg from "@/public/bus.png";
 
 export const links = [
   {
@@ -29,13 +29,15 @@ export const links = [
 //experiences once i have it 
 
 export const projectsData = [
+ 
+
   {
-    title: "GO HTTP server",
+    title: "real-estate webapp",
     description:
-      "My first GO project to understand implementation and working of GOlang",
-    tags: ["GO", "Insomnia", "APIs"],
-    imageUrl: GOImg,
-    link:'https://github.com/vishsec/HTTP-server-'
+      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+    tags: ["React", "Express", "MongoDB", "Tailwind","Node"],
+    imageUrl: wordanalyticsImg,
+    link:'https://github.com/vishsec/business-app'
   },
   {
     title: "portfolio-webapp",
@@ -47,12 +49,12 @@ export const projectsData = [
 
   },
   {
-    title: "real-estate webapp",
+    title: "GO HTTP server",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Express", "MongoDB", "Tailwind","Node"],
-    imageUrl: wordanalyticsImg,
-    link:'https://github.com/vishsec/business-app'
+      "My first GO project to understand implementation and working of GOlang",
+    tags: ["GO", "Insomnia", "APIs"],
+    imageUrl: GOImg,
+    link:'https://github.com/vishsec/HTTP-server-'
   },
 ] as const;
 
