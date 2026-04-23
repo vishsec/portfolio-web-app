@@ -29,15 +29,13 @@ export const links = [
 //experiences once i have it 
 
 export const projectsData = [
- 
-
-  {
-    title: "real-estate webapp",
+   {
+    title: "latency-break",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Express", "MongoDB", "Tailwind","Node"],
-    imageUrl: wordanalyticsImg,
-    link:'https://github.com/vishsec/business-app'
+      "NPM package to show granular details including DB latency , server latency and much more for an API endpoint",
+    tags: ["npm", "Javascript", "APIs"],
+    imageUrl: GOImg,
+    link:'https://www.npmjs.com/package/latency-break'
   },
   {
     title: "portfolio-webapp",
@@ -49,12 +47,12 @@ export const projectsData = [
 
   },
   {
-    title: "latency-break",
+    title: "real-estate webapp",
     description:
-      "NPM package to show granular details including DB latency , server latency and much more for an API endpoint",
-    tags: ["npm", "Javascript", "APIs"],
-    imageUrl: GOImg,
-    link:'https://www.npmjs.com/package/latency-break'
+      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+    tags: ["React", "Express", "MongoDB", "Tailwind","Node"],
+    imageUrl: wordanalyticsImg,
+    link:'https://github.com/vishsec/business-app'
   },
 ] as const;
 
