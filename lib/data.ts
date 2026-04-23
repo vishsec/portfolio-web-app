@@ -49,12 +49,12 @@ export const projectsData = [
 
   },
   {
-    title: "GO HTTP server",
+    title: "latency-break",
     description:
-      "My first GO project to understand implementation and working of GOlang",
-    tags: ["GO", "Insomnia", "APIs"],
+      "NPM package to show granular details including DB latency , server latency and much more for an API endpoint",
+    tags: ["npm", "Javascript", "APIs"],
     imageUrl: GOImg,
-    link:'https://github.com/vishsec/HTTP-server-'
+    link:'https://www.npmjs.com/package/latency-break'
   },
 ] as const;
 
